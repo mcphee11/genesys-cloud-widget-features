@@ -21,7 +21,7 @@ on Linux: export PORT=3000 CLIENTID={ENTER YOUR ID} CLIENTSECRET={ENTER YOUR ID}
 
 Then start the app: node app.js
 
-![](/docs.images/screenShot2.png?raw=true)
+![](/docs/images/screenShot2.png?raw=true)
 
 In your Genesys Widget config.js you will need to add in the configuration for the services you require. I have included an example of this in teh repo called "exampleWidgetConfig.js" in this exampel and this exampel code im referencing an individual "userId" for the EWT as in demos my queues dont always haven enough traffic to have a realistic EWT. in the "genesys.js" file you can see there is also a function for getting a EWT from a queue that would be used in the real world. Once this is configured you will be able to see the below style of EWT Status.
 
