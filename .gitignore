@@ -1,0 +1,7 @@
+.env
+deploy.sh
+*.log
+log/
+logs/
+tmp/
+node_modules/
