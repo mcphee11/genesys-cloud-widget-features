@@ -1,0 +1,25 @@
+{
+  "name": "genesys-cloud-widget-features",
+  "version": "1.0.0",
+  "description": "V2 Widget real time EWT, call back and send message ability on GC",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcphee11/genesys-cloud-widget-features.git"
+  },
+  "author": "matt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcphee11/genesys-cloud-widget-features/issues"
+  },
+  "homepage": "https://github.com/mcphee11/genesys-cloud-widget-features#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "purecloud-platform-client-v2": "^97.0.0"
+  }
+}
