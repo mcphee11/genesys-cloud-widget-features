@@ -17,6 +17,12 @@ if(!clientId) {console.log('Missing CLIENTID'); process.exit()}
 if(!clientSecret) {console.log('Missing CLIENTSECRET'); process.exit()}
 if(!region) {console.log('Missing REGION'); process.exit()}
 client.loginClientCredentialsGrant(clientId, clientSecret)
+.then(() => {
+    console.log('Authenticated')
+  })
+  .catch((err) => {
+    console.log('Authentication Error Please check OAuth Details: ', err.message);
+  });
 
 module.exports = {
     getEwt: async function getEwt(ewtQueueId, ewtMediaType){        //not used in demo due to getting single user queue status for demos
